@@ -86,7 +86,7 @@ Successfully verified contract World on the block explorer.
 https://optimism-sepolia.blockscout.com/address/0xCc319814db2C7DFc2979AbAeba3Fb52ac4ca1dbB#code
 
 ```
-![alt text](image.png)
+![alt text](./world/image.png)
 
 ## arbitrumSepolia   
 ```sh
