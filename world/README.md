@@ -33,6 +33,27 @@ npx hardhat run scripts/deploy.ts --network sepolia
 
 0xbbaca69f378760837b5428833db97457ee4cb4be
 
+
+
+npx hardhat verify --network sepolia 0xCc319814db2C7DFc2979AbAeba3Fb52ac4ca1dbB '0x473d1cc3547b905ab81c7ce21ba9f1168a62ce5c'
+
+
+```
+$  ~/Downloads/contract/world git:(main) npx hardhat verify --network sepolia 0xCc319814db2C7DFc2979AbAeba3Fb52ac4ca1dbB '0x473d1cc3547b905ab81c7ce21ba9f1168a62ce5c'
+[INFO] Sourcify Verification Skipped: Sourcify verification is currently disabled. To enable it, add the following entry to your Hardhat configuration:
+
+sourcify: {
+  enabled: true
+}
+
+Or set 'enabled' to false to hide this message.
+
+For more information, visit https://hardhat.org/hardhat-runner/plugins/nomicfoundation-hardhat-verify#verifying-on-sourcify
+The contract 0xCc319814db2C7DFc2979AbAeba3Fb52ac4ca1dbB has already been verified on the block explorer. If you're trying to verify a partially verified contract, please use the --force flag.
+https://sepolia.etherscan.io/address/0xCc319814db2C7DFc2979AbAeba3Fb52ac4ca1dbB#code
+```
+
+
 ## baseSepolia
 
 $  ~/Downloads/contract/world git:(main) ✗ npx hardhat run scripts/deploy.ts --network baseSepolia
